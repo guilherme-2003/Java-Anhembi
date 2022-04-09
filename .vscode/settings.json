@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "AULA07 - Sexta/exercicio01",
+        "AULA07 - Sexta/exemplo02",
         "AULA07 - Sexta/exemplo01",
         "AULA07 - Sexta/Exemplo01",
         "AULA05 - Sexta",
@@ -9,7 +10,7 @@
         "AULA03 - Quinta",
         "AULA02 - Quinta",
         "AULA01 - Sexta",
-        "AULA07 - Sexta/exemplo02"
+        "AULA07 - Sexta/exercicio02"
     ],
     "git.ignoreLimitWarning": true,
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m"
