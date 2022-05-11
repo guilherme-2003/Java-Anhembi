@@ -1,0 +1,74 @@
+public class AppRobo {
+    public static void main(String[] args) {
+        Robo robo = new Robo(6, 6, 'O');
+        Robo robo2 = new Robo(10, 12, 2, 2, 'N');
+
+        System.out.println(robo.mostrarPosicao()); 
+        robo.girarPara('N');
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        System.out.println(robo.mostrarPosicao());
+        robo.girarPara('S');
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        System.out.println(robo.mostrarPosicao());
+        robo.girarPara('L');
+        System.out.println(robo.mostrarPosicao());
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        System.out.println(robo.mostrarPosicao());
+        robo.girarPara('O');
+        robo.andar();
+        robo.andar();
+        robo.andar();
+        System.out.println(robo.mostrarPosicao());
+
+        System.out.println(robo2.mostrarPosicao()); 
+        robo2.girarPara('N');
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        System.out.println(robo2.mostrarPosicao());
+        robo2.girarPara('S');
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        System.out.println(robo2.mostrarPosicao());
+        robo2.girarPara('L');
+        System.out.println(robo2.mostrarPosicao());
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        System.out.println(robo2.mostrarPosicao());
+        robo2.girarPara('O');
+        robo2.andar();
+        robo2.andar();
+        robo2.andar();
+        System.out.println(robo2.mostrarPosicao());
+    }
+}
